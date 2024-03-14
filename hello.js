@@ -1,3 +1,4 @@
-console.log("hello");
-console.log("no");
-// test
+function calculer(masse, taille){
+    var imc = masse / (taille * taille);
+    return imc;
+}
