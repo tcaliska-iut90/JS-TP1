@@ -35,3 +35,8 @@ souris est ailleurs.
 *  les champs ne sont pas vides, ils contiennent des chiffres (isNaN(n)) et ils sont positifs. 
 * Vos messages d'erreurs doivent être affichés dans une petite fenêtre (alert(message)).
 * Ils doivent être clairs et indiquer explicitement c'est quoi l'erreur d'insertion et dans quelchamp de texte elle s'est produite.
+
+* Au lieu d'afficher un message dans une petite fenêtre,
+* c'est mieux de mettre en évidence là où l'erreur s'est produite ( par exemple, en changeant la couleur du champs de texte ou en
+* ajoutant une icône ) et afficher le message d'erreur convenable à côté du champs de texte en question.
+* Développer deux versions de l'application pour illustrer les deux moyens pour mettre en évidence les erreurs.
