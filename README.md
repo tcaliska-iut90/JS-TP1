@@ -1,7 +1,7 @@
 # IHM - JavaScript - TP1
 
 * Exercice 1 : IMC
-* Développer une page web qui calcule l'indice de masse corporelle : 𝐼𝑀𝐶 = 𝑚𝑎𝑠𝑠𝑒 𝑒𝑛 𝑘𝑔 / (𝑡𝑎𝑖𝑙𝑙𝑒 𝑒𝑛 𝑚)2
+* Développer une page web qui calcule l'indice de masse corporelle : 𝐼𝑀𝐶 = 𝑚𝑎𝑠𝑠𝑒 𝑒𝑛 𝑘𝑔 / (𝑡𝑎𝑖𝑙𝑙𝑒 𝑒𝑛 𝑚)²
 * La page web doit contenir 2 champs de texte pour insérer la masse et la taille d'un individu, un bouton pour déclencher le calcul de l'indice et l'afficher dans la page web.
 * Pour gérer l'évènement « appuyer sur le bouton » définissez la fonction JavaScript à
 exécuter lors d'un événement « onclick ». La fonction JavaScript doit récupérer le contenu
