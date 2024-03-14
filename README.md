@@ -6,13 +6,14 @@
 * Pour gérer l'évènement « appuyer sur le bouton » définissez la fonction JavaScript à exécuter lors d'un événement « onclick ».
 * La fonction JavaScript doit récupérer le contenu des champs de texte avec la méthode "document.getElementById("identifiant_du_champs").value" puis calculer l'IMC et l'afficher sur la page web.
 * Ajouter au script une instruction conditionnelle qui selon la valeur de IMC affiche l'information correspondante :
-* IMC État de l'individu
-* moins de 18,5 maigre
-* entre 18,5 et 25 normal chez un adulte
-* entre 25 et 30 surpoids (surcharge pondérale)
-* entre 30 et 35 obésité
-* entre 35 et 40 obésité sévère
-• Ajouter un raccourci (Ctrl+C) au bouton « Calculer » en utilisant le code suivant :
+* IMC État de l'individu :
+* | moins de 18,5 maigre                          |
+* | entre 18,5 et 25 normal chez un adulte        |
+* | entre 25 et 30 surpoids (surcharge pondérale) |
+* | entre 30 et 35 obésité                        |
+* | entre 35 et 40 obésité sévère                 |
+* 
+* Ajouter un raccourci (Ctrl+C) au bouton « Calculer » en utilisant le code suivant :
 * var isCtrl = false;
 * document.onkeyup=function(e){
 * if(e.key === 'Control')
@@ -22,9 +23,9 @@
 * if(e.key === 'Control') isCtrl=true;
 * if(e.key === 'c' && isCtrl == true) {
 * calculer();
-* }
-* }
-• Ajouter un script qui permet d'afficher le message « appuyer sur le bouton pour calculer
+* }}
+*
+* Ajouter un script qui permet d'afficher le message « appuyer sur le bouton pour calculer
 l'IMC » à coté du bouton lorsque la souris est au-dessus du bouton et disparaît lorsque la
 souris est ailleurs. (style.display = 'none';)
 Le même effet peut être créer en ajoutant tout simplement un titre au bouton.
