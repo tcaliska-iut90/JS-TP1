@@ -1,7 +1,7 @@
 # IHM - JavaScript - TP1
 
-Exercice 1 : IMC
-Développer une page web qui calcule l'indice de masse corporelle :
+* Exercice 1 : IMC
+* Développer une page web qui calcule l'indice de masse corporelle :
 𝐼𝑀𝐶 =
 𝑚𝑎𝑠𝑠𝑒 𝑒𝑛 𝑘𝑔
 (𝑡𝑎𝑖𝑙𝑙𝑒 𝑒𝑛 𝑚)
