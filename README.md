@@ -25,14 +25,13 @@
 * calculer();
 * }}
 *
-* Ajouter un script qui permet d'afficher le message « appuyer sur le bouton pour calculer
-l'IMC » à coté du bouton lorsque la souris est au-dessus du bouton et disparaît lorsque la
-souris est ailleurs. (style.display = 'none';)
-Le même effet peut être créer en ajoutant tout simplement un titre au bouton.
-<input type="button" title="appuyer sur le boutton pour calculer" … >
-• Ajouter à la fonction de calcul de l'IMC des fonctions qui testent si les données insérées
-dans les 2 champs de texte sont valides : les champs ne sont pas vides, ils contiennent des
-chiffres (isNaN(n)) et ils sont positifs. 
-Vos messages d'erreurs doivent être affichés dans une petite fenêtre (alert(message)). Ils
-doivent être clairs et indiquer explicitement c'est quoi l'erreur d'insertion et dans quel
-champ de texte elle s'est produite.
+* Ajouter un script qui permet d'afficher le message « appuyer sur le bouton pour calculer l'IMC » à coté du bouton lorsque la souris est au-dessus du bouton et disparaît lorsque la
+souris est ailleurs.
+* (style.display = 'none';)
+* Le même effet peut être créer en ajoutant tout simplement un titre au bouton.
+* <input type="button" title="appuyer sur le boutton pour calculer" … >
+*
+*  Ajouter à la fonction de calcul de l'IMC des fonctions qui testent si les données insérées dans les 2 champs de texte sont valides :
+*  les champs ne sont pas vides, ils contiennent des chiffres (isNaN(n)) et ils sont positifs. 
+* Vos messages d'erreurs doivent être affichés dans une petite fenêtre (alert(message)).
+* Ils doivent être clairs et indiquer explicitement c'est quoi l'erreur d'insertion et dans quelchamp de texte elle s'est produite.
