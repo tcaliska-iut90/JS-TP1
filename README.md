@@ -14,16 +14,16 @@
 * | entre 35 et 40 obésité sévère                 |
 * 
 * Ajouter un raccourci (Ctrl+C) au bouton « Calculer » en utilisant le code suivant :
-*   var isCtrl = false;
-*   document.onkeyup=function(e){
-*   if(e.key === 'Control')
-*   isCtrl=false;
-*   }
-*   document.onkeydown=function(e){
-*   if(e.key === 'Control') isCtrl=true;
-*   if(e.key === 'c' && isCtrl == true) {
-*   calculer();
-*   }}
+*     var isCtrl = false;
+*     document.onkeyup=function(e){
+*     if(e.key === 'Control')
+*     isCtrl=false;
+*     }
+*     document.onkeydown=function(e){
+*     if(e.key === 'Control') isCtrl=true;
+*     if(e.key === 'c' && isCtrl == true) {
+*     calculer();
+*     }}
 *
 * Ajouter un script qui permet d'afficher le message « appuyer sur le bouton pour calculer l'IMC » à coté du bouton lorsque la souris est au-dessus du bouton et disparaît lorsque la
 souris est ailleurs.
